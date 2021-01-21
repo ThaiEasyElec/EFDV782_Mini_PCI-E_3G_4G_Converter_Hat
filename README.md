@@ -10,7 +10,7 @@ git clone https://github.com/ThaiEasyElec/EFDV782_Mini_PCI-E_3G_4G_Converter_Hat
 
 cd EFDV782_Mini_PCI-E_3G_4G_Converter_Hat/umtskeeper/
 
-1.การเชื่อม internet สามารถทำได้ 2 วิธีคือ 1.การเชื่อมต่อด้วย Sakis3G โดยใช้คำสั่ง (ค่าตั้งค่าโปรแกรม Sakis3G ดูได้จากเอกสารนี้ตั้งแต่หน้าที่ 25 เป็นต้นไป https://downloads.thaieasyelec.com/ETEE064/3G_Expansion_for_Raspberry_Pi_User_Manual_TH.pdf ) 
+1.การเชื่อม internet สามารถทำได้ 2 วิธีคือ 1.การเชื่อมต่อด้วย Sakis3G โดยใช้คำสั่ง (การตั้งค่าโปรแกรม Sakis3G ดูได้จากเอกสารนี้ตั้งแต่หน้าที่ 25 เป็นต้นไป https://downloads.thaieasyelec.com/ETEE064/3G_Expansion_for_Raspberry_Pi_User_Manual_TH.pdf ) 
 
 sudo ./sakis3g --interactive
 
