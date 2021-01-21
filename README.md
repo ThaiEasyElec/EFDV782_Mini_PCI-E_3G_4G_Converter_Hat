@@ -15,6 +15,7 @@ cd EFDV782_Mini_PCI-E_3G_4G_Converter_Hat/umtskeeper/
 sudo ./sakis3g --interactive
 
 2.ใช้คำสั่ง UMTSkeeper สั่ง Sakis3G ให้เชื่อมต่อดังนี้ 
+
 sudo ./umtskeeper --sakisoperators "OTHER='CUSTOM_TTY' CUSTOM_TTY='/dev/ttyUSB3' APN='CUSTOM_APN' CUSTOM_APN='internet' APN_USER='true' APN_PASS='true' " --sakisswitches "--sudo --console" --devicename 'Quectel' --log --nat 'no'
 
 ![Capture1](https://user-images.githubusercontent.com/8803501/105302203-d2fb6680-5bed-11eb-8e81-9cc37ecda3c5.JPG)
