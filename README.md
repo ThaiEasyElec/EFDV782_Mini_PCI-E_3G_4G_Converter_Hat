@@ -39,6 +39,6 @@ sudo /home/pi/EFDV782_Mini_PCI-E_3G_4G_Converter_Hat/umtskeeper/./umtskeeper --s
 ![image](https://user-images.githubusercontent.com/8803501/105316677-c974fd00-5bf3-11eb-993a-d7145fd50690.png)
 
 
- ทำการ Reboot โดยในคำสั่ง
+ ทำการ Reboot โดยใช้คำสั่ง
  
  sudo reboot
