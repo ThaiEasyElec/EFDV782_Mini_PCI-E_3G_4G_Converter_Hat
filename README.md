@@ -1,7 +1,7 @@
 การติดตั้ง (installation)
 
 
-sudo apt-get update 
+`sudo apt-get update `
 
 sudo apt-get install usb-modeswitch ppp 
 
