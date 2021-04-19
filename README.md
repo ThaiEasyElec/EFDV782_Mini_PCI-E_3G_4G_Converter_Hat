@@ -1,13 +1,13 @@
 การติดตั้ง (installation)
 
-`
-sudo apt-get update 
 
-sudo apt-get install usb-modeswitch ppp 
+`sudo apt-get update`
 
-git clone https://github.com/ThaiEasyElec/EFDV782_Mini_PCI-E_3G_4G_Converter_Hat.git
+`sudo apt-get install usb-modeswitch ppp` 
 
-`
+`git clone https://github.com/ThaiEasyElec/EFDV782_Mini_PCI-E_3G_4G_Converter_Hat.git`
+
+
 
 
 เข้าไปที่โฟลเดอร์ umtskeeper (go to directory EFDV782_Mini_PCI-E_3G_4G_Converter_Hat/umtskeeper/ )
