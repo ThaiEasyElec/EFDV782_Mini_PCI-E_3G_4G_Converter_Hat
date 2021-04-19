@@ -1,4 +1,4 @@
-การติดตั้ง (installation)
+**การติดตั้ง (installation)**
 
 
 `sudo apt-get update`
@@ -38,7 +38,7 @@
 `sudo nano /etc/rc.local`
 
 
-จากนั้นนำคำสั่งด้านล่างไปใส่ไว้ก่อน exit 0 และกด Ctrl + X จากนั้นกด Y เพื่อบันทึก (and then paste command below to inside rc.local before exit 0 and Ctrl + X and Y in order to save edit file )
+จากนั้นนำคำสั่งด้านล่างไปใส่ไว้ก่อน ```exit 0``` และกด ```Ctrl + X``` จากนั้นกด ```Y``` เพื่อบันทึก (and then paste command below to inside rc.local before exit 0 and Ctrl + X and Y in order to save edit file )
 
 `sudo /home/pi/EFDV782_Mini_PCI-E_3G_4G_Converter_Hat/umtskeeper/./umtskeeper --sakisoperators "OTHER='CUSTOM_TTY' CUSTOM_TTY='/dev/ttyUSB3' APN='CUSTOM_APN' CUSTOM_APN='internet' APN_USER='true' APN_PASS='true' " --sakisswitches "--sudo --console" --devicename 'Quectel' --log --nat 'no' & `
 
