@@ -16,7 +16,7 @@
 
 
 
-1.การเชื่อม internet สามารถทำได้ 2 วิธีคือ 1.การเชื่อมต่อด้วย Sakis3G โดยใช้คำสั่ง (การตั้งค่าโปรแกรม Sakis3G ดูได้จากเอกสารนี้ตั้งแต่หน้าที่ 25 เป็นต้นไป  ( 2 ways internet connection  1. connect via Sakis3G and setting config follow file pdf.) https://downloads.thaieasyelec.com/ETEE064/3G_Expansion_for_Raspberry_Pi_User_Manual_TH.pdf 
+1.การเชื่อม internet สามารถทำได้ 2 วิธีคือ 1.การเชื่อมต่อด้วย Sakis3G โดยใช้คำสั่ง (การตั้งค่าโปรแกรม Sakis3G ดูได้จากเอกสารนี้ตั้งแต่หน้าที่ 25 เป็นต้นไป  ( 2 ways internet connection  1. connect via Sakis3G and setting config follow file pdf.) [3G_Expansion_for_Raspberry_Pi_User_Manual_TH](https://downloads.thaieasyelec.com/ETEE064/3G_Expansion_for_Raspberry_Pi_User_Manual_TH.pdf).
 
 `sudo ./sakis3g --interactive`
 
