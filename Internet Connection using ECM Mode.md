@@ -1,7 +1,9 @@
-วิธีนี้ใช้ได้กับชิพ EC25-A และ EC25-E
+**การติดตั้ง (installation)**
+**วิธีนี้ใช้ได้กับชิพ EC25-A และ EC25-E**
 
 1.ทำการเช็คว่าบอร์ด Raspberry Pi มองเห็นตัวโมดูล EC25 หรือไม่ โดยใช้คำสั่ง 
-lsusb
+
+`lsusb`
 
 --> Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
 
@@ -9,7 +11,7 @@ lsusb
 
 2.ทำการติดตั้งโปรแกรม putty โดยใช้คำสั่ง
 
-sudo apt install putty -y
+`sudo apt install putty -y`
 
 
 
@@ -20,24 +22,24 @@ sudo apt install putty -y
 
 4.ใช้ AT command เพื่อเปิดใช้งานอินเตอร์เน็ตดังนี้
 
-AT+QCFG="usbnet",1
+`AT+QCFG="usbnet",1`
 
-AT+CGDCONT=1,"IP","internet"
+`AT+CGDCONT=1,"IP","internet"`
 
 
 
 5.ทำการ Reboot โมดูลโดยใช้คำสั่ง 
-AT+CFUN=1,1
+`AT+CFUN=1,1`
 
 
 
-จากนั้นให้ทำการเช็คการเชื่อมต่ออินเตอร์เน็ตโดยการใช้คำสั่ง ping 8.8.8.8 ที่หน้า Terminal
+จากนั้นให้ทำการเช็คการเชื่อมต่ออินเตอร์เน็ตโดยการใช้คำสั่ง `ping 8.8.8.8` ที่หน้า Terminal
 
 
 
 หากต้องการปิดการใช้งานโหมดนี้ สามารถใช้คำสั่ง 
 
-AT+QCFG="usbnet",0 
+`AT+QCFG="usbnet",0`
 
 ทำการ Reboot โมดูลโดยใช้คำสั่ง 
-AT+CFUN=1,1
+`AT+CFUN=1,1`
