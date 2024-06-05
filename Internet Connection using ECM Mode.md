@@ -37,14 +37,12 @@
 
 6 เพิ่มคำสั่งลงใน File--> /etc/network/interfaces
 ดังนี้
-- เปิดFile--> sudo nano /etc/network/interfaces
-
-- เพิ่มคำสั้ง
-  auto usb0
-  allow-hotplug usb0
-  iface usb0 inet dhcp
-
-- Save and Exit
+  6.1  เปิดFile--> sudo nano /etc/network/interfaces
+  6.2 เพิ่มคำสั่ง
+      auto usb0
+      allow-hotplug usb0
+      iface usb0 inet dhcp
+  6.3 Save and Exit
 
 7 Restart--> sudo reboot
 
