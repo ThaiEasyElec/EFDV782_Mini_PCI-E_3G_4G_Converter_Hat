@@ -35,10 +35,17 @@
 5.ทำการ Reboot โมดูลโดยใช้คำสั่ง และรอ reboot โมดูลประมาณ 30 วินาที
 `AT+CFUN=1,1`
 
+6 เพิ่มคำสั่งลงใน File--> /etc/network/interfaces
+ดังนี้
+- เปิดFile--> sudo nano /etc/network/interfaces
+- เพิ่มคำสั้ง
+auto usb0
+allow-hotplug usb0
+iface usb0 inet dhcp
+- Save and Exit
+7 Restart--> sudo reboot
 
-
-
-จากนั้นให้ทำการเช็คการเชื่อมต่ออินเตอร์เน็ตโดยการใช้คำสั่ง `ping 8.8.8.8` ที่หน้า Terminal
+8 จากนั้นให้ทำการเช็คการเชื่อมต่ออินเตอร์เน็ตโดยการใช้คำสั่ง `ping 8.8.8.8` ที่หน้า Terminal
 
 
 
