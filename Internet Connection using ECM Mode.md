@@ -36,7 +36,7 @@
 `AT+CFUN=1,1`
 
 6 เพิ่มคำสั่งลงใน File--> /etc/network/interfaces
-ดังนี้
+ดังนี้\
 6.1  เปิดFile--> sudo nano /etc/network/interfaces \
 6.2 เพิ่มคำสั่ง \
     auto usb0 \
